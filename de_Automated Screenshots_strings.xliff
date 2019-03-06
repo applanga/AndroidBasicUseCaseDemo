@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" target-language="de" date="2019-02-26T16:40:31Z" product-name="Automated Screenshots" tool="Applanga">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="item3_desc" maxbytes="77">
+        <source>This amazing piece of dental technology puts the fun back into teeth brushing</source>
+        <target>Dieses fantastische Stück dentaler Technologie macht einfach nur Spass!</target>
+      </trans-unit>
+      <trans-unit id="prompt_email" maxbytes="5">
+        <source>Email</source>
+        <target>NeuPost</target>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>köföewngeqö</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="item2_title" maxbytes="19">
+        <source>Electric Toothbrush</source>
+        <target>Elektrische Zahnbürste</target>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>Elektrische Bürste</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="item3_price" maxbytes="7">
+        <source>129,99€</source>
+        <target>129,99 €</target>
+      </trans-unit>
+      <trans-unit id="buy" maxbytes="3">
+        <source>Buy</source>
+        <target>Zugreifen</target>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>Zugreifen</target>
+        </alt-trans>
+        <note from="comment">@[Helena Kleine:573c2b4e58aac76e39f6c490] Please translate again!!!!</note>
+      </trans-unit>
+      <trans-unit id="back" maxbytes="4">
+        <source>Back</source>
+        <target/>
+        <alt-trans alttranstype="proposal">
+          <target>Zurück</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="item1_price" maxbytes="5">
+        <source>1,99€</source>
+        <target>1,99€</target>
+      </trans-unit>
+      <trans-unit id="title_activity_scrolling">
+        <source>Offered items</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="error_incorrect_password" maxbytes="26">
+        <source>This password is incorrect</source>
+        <target>Dieses Passwort ist falschh</target>
+        <state>needs-translation</state>
+      </trans-unit>
+      <trans-unit id="action_sign_in" maxbytes="20">
+        <source>Sign in orr register</source>
+        <target>Anmelden</target>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>Einloggen</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="error_invalid_password" maxbytes="26">
+        <source>This password is too short</source>
+        <target>Passwort zu kurz</target>
+      </trans-unit>
+      <trans-unit id="error_field_required">
+        <source>This field is required</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="login_title">
+        <source>Login</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="your_items" maxbytes="10">
+        <source>Your items</source>
+        <target/>
+        <alt-trans alttranstype="proposal">
+          <target>Ihrer Warkkorb</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="item3_title" maxbytes="30">
+        <source>Ultrasonic electric Toothbrush</source>
+        <target>Ultraschall Zahnbürste</target>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>Ultraschall Bürste</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="shopping_cart" maxbytes="13">
+        <source>Shopping Cart</source>
+        <target>Einkaufswagen</target>
+      </trans-unit>
+      <trans-unit id="item1_title" maxbytes="17">
+        <source>Simple Toothbrush</source>
+        <target>Einfache Zahnbürste</target>
+        <alt-trans alttranstype="proposal">
+          <target>Einfache Bürste</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="item2_price" maxbytes="6">
+        <source>29,99€</source>
+        <target>29,99€</target>
+      </trans-unit>
+      <trans-unit id="settings" maxbytes="8">
+        <source>Settings</source>
+        <target>Einstellungen</target>
+        <state>needs-translation</state>
+      </trans-unit>
+      <trans-unit id="profile" maxbytes="7">
+        <source>Profile</source>
+        <target>Profil</target>
+      </trans-unit>
+      <trans-unit id="count" maxbytes="7">
+        <source>Amount:</source>
+        <target/>
+        <alt-trans alttranstype="proposal">
+          <target>Anzahl:</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="pay" maxbytes="3">
+        <source>Pay</source>
+        <target/>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>Zahlen </target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="item2_desc" maxbytes="81">
+        <source>Improving on the classical design this Toothbrush is brushing your teeth for you.</source>
+        <target>Das klassische Design verbessernd, putzt diese Bürste Ihre Zähne für Sie.</target>
+        <state>needs-translation</state>
+      </trans-unit>
+      <trans-unit id="item4_desc" maxbytes="46">
+        <source>Simple yet effective at protecting your teeth.</source>
+        <target>Einfach aber doch effektiv für den Zahnschutz.</target>
+      </trans-unit>
+      <trans-unit id="prompt_password" maxbytes="19">
+        <source>Password (optional)</source>
+        <target>Passwort (optional)</target>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>Gib dein Passwort ein...</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="title_activity_shopping_cart" maxbytes="18">
+        <source>Your Shopping Cart</source>
+        <target>Einkaufwagen</target>
+        <state>signed-off</state>
+        <note from="comment">I lioke this! </note>
+      </trans-unit>
+      <trans-unit id="app_name" maxbytes="16">
+        <source>BasicUsecaseDemo</source>
+        <target/>
+        <state>needs-translation</state>
+        <note from="comment">ljvgbewl</note>
+      </trans-unit>
+      <trans-unit id="error_invalid_email">
+        <source>This email address is invalid</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="item4_title" maxbytes="10">
+        <source>Toothpaste</source>
+        <target/>
+        <state>signed-off</state>
+        <note from="comment">blah</note>
+      </trans-unit>
+      <trans-unit id="item1_desc" maxbytes="67">
+        <source>This classical design, requires manual labor but gets the job done.</source>
+        <target/>
+        <state>needs-translation</state>
+        <alt-trans alttranstype="proposal">
+          <target>Dieses klassische Design erfordert Handarbeit</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="action_sign_in_short">
+        <source>Sign in</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="buy_message" maxbytes="28" translate="No">
+        <source>Thank you for your business!</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="item4_price" maxbytes="5">
+        <source>0,99€</source>
+        <target>0,99€</target>
+      </trans-unit>
+    </body>
+    <reference/>
+  </file>
+</xliff>
