@@ -3,7 +3,7 @@ Basic Applanga Sample app the allows automatic string upload with applanga as we
 
 ## How To Start
 
-* create and account on [https://dashboard.applanga.com](https://dashboard.applanga.com)
+* create an account on [https://dashboard.applanga.com](https://dashboard.applanga.com)
 * add a new App
 * select Android and then **Download Settings File** 
 * place the downloaded applanga_settings.applanga file into your `~/AndroidBasicUseCaseDemo/BasicUseCaseDemo/app/src/main/res/raw` folder
