@@ -1,0 +1,3 @@
+include ':app'
+//include ':Applanga'
+//project(':Applanga').projectDir = new File(settingsDir, '../../ApplangaAndroidSDK/Applanga')
