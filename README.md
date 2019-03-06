@@ -9,8 +9,8 @@ Basic Applanga Sample app the allows automatic string upload with applanga as we
 * place the downloaded applanga_settings.applanga file into your `~/AndroidBasicUseCaseDemo/BasicUseCaseDemo/app/src/main/res/raw` folder
 * open the **BasicUseCaseDemo** project in [Android Studio](https://developer.android.com/studio)
 * click the bug🐞 button to start the app with debugging enabled
-	* you can either do this with a realy device attached to your computer or launch on a virtual device
-	* once tha App is started wait for 10 seconds and afterwards all the base language strings should be uploaded to the Applanga dashboard
+	* you can either do this with a real device attached to your computer or launch on a virtual device
+	* once the App is started wait for 10 seconds and afterwards all the base language strings should be uploaded to the Applanga dashboard
 * Refresh the dashboard to see if strings have been uploaded into english
 
 ## Automated UI Tests
