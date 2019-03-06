@@ -16,7 +16,7 @@ Basic Applanga Sample app the allows automatic string upload with applanga as we
 ## Automated UI Tests
 
 * Add German (language code **DE**) to your app on the Applanga dashboard
-* Go into german and import the file [de_Automated Screenshots_strings.xliff](https://raw.githubusercontent.com/applanga/AndroidBasicUseCaseDemo/master/de_Automated Screenshots_strings.xliff)
+* Go into german and import the file [de_Automated Screenshots_strings.xliff](https://raw.githubusercontent.com/applanga/AndroidBasicUseCaseDemo/master/de_Automated%20Screenshots_strings.xliff)
 * in Android Studio right klick to **app->java->...->ExampleInstrumentedTest** and click **Run ExampleInstrumentedTest**
 	* tests should now run for a few secnds and capture and upload screenshots to your project in german and english
 * Refresh the dashboard
