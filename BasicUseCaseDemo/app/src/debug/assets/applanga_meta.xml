@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Applanga>
     <AllowStrings>app_name,prompt_email,prompt_password,action_sign_in,action_sign_in_short,error_invalid_email,error_invalid_password,error_incorrect_password,error_field_required,title_activity_scrolling,title_activity_shopping_cart,buy_message,shopping_cart,settings,profile,item1_title,item1_desc,item1_price,item2_title,item2_desc,item2_price,item3_title,item3_desc,item3_price,item4_title,item4_desc,item4_price,count,login_title,buy,pay,back,your_items,</AllowStrings>
-    <PluginVersion>app:3.0.110,</PluginVersion>
+    <PluginVersion>app:3.0.121,</PluginVersion>
     <PackageName>android.applanga.com.basicusecasedemo</PackageName>
 </Applanga>

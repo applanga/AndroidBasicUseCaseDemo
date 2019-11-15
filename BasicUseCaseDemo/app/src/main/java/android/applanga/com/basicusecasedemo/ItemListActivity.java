@@ -1,23 +1,14 @@
 package android.applanga.com.basicusecasedemo;
 
 import android.content.Intent;
-import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.app.Activity;
-import android.support.annotation.NonNull;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.applanga.android.Applanga;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ItemListActivity extends Activity {
 

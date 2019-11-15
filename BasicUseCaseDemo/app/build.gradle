@@ -7,10 +7,10 @@ android {
     defaultConfig {
         applicationId "android.applanga.com.basicusecasedemo"
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -33,16 +33,14 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    //implementation 'io.github.inflationx:calligraphy3:3.0.0'
-    //implementation 'io.github.inflationx:viewpump:1.0.0'
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
     testImplementation 'junit:junit:4.12'
 
-    implementation 'com.applanga.android:Applanga:3.0.110'
+    implementation 'com.applanga.android:Applanga:3.0.121'
 }
 
 buildscript {
@@ -58,6 +56,6 @@ buildscript {
         }
     }
     dependencies {
-        classpath  'com.applanga.android:plugin:3.0.110'
+        classpath  'com.applanga.android:plugin:3.0.121'
     }
 }
