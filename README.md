@@ -12,6 +12,7 @@ Basic Applanga Sample app the allows automatic string upload with applanga as we
 	* you can either do this with a real device attached to your computer or launch on a virtual device
 	* once the App is started wait for 10 seconds and afterwards all the base language strings should be uploaded to the Applanga dashboard
 * refresh the dashboard to see if strings have been uploaded into english
+* When runnign the app on device, to get passed the login screen use the username "demo@applanga.com" and the password "demo"
 
 ## Automated UI Tests
 
