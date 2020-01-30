@@ -40,7 +40,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     testImplementation 'junit:junit:4.12'
 
-    implementation 'com.applanga.android:Applanga:3.0.122'
+    implementation 'com.applanga.android:Applanga:3.0.123'
 }
 
 buildscript {
@@ -56,6 +56,6 @@ buildscript {
         }
     }
     dependencies {
-        classpath  'com.applanga.android:plugin:3.0.122'
+        classpath  'com.applanga.android:plugin:3.0.123'
     }
 }
