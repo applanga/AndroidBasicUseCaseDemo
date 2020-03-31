@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.SystemClock;
+import android.util.Log;
 
-import androidx.test.platform.app.InstrumentationRegistry;
+import androidx.test.core.app.ApplicationProvider;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
+import androidx.test.runner.lifecycle.Stage;
 
 import com.applanga.android.Applanga;
 import com.applanga.android.ApplangaCallback;
@@ -18,6 +21,7 @@ import org.junit.runner.RunWith;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.Locale;
 
@@ -25,6 +29,7 @@ import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.typeText;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 
 /**
  * Instrumentation test, which will execute on an Android device.
@@ -37,9 +42,31 @@ public class ExampleInstrumentedTest {
     public ActivityTestRule<LoginActivity> mActivityRule = new ActivityTestRule<>(
             LoginActivity.class);
     @Test
-    public void useAppContext() throws Exception {
+    public void englishTest() throws Exception {
         runScreenshotAutomation("en");
+    }
+
+    @Test
+    public void germanTest() throws Exception {
         runScreenshotAutomation("de");
+    }
+
+    Activity currentActivity = null;
+
+    public Activity getActivityInstance(){
+        getInstrumentation().runOnMainSync(new Runnable() {
+            public void run() {
+                Collection<Activity> resumedActivities =
+                        ActivityLifecycleMonitorRegistry.getInstance().getActivitiesInStage(Stage.RESUMED);
+                for (Activity activity: resumedActivities){
+                    Log.d("Your current activity: ", activity.getClass().getName());
+                    currentActivity = activity;
+                    break;
+                }
+            }
+        });
+
+        return currentActivity;
     }
 
     void runScreenshotAutomation(final String language) throws Exception {
@@ -56,18 +83,17 @@ public class ExampleInstrumentedTest {
                     //called if update is complete
                     Applanga.setLanguage(language);
                     Activity activity = mActivityRule.getActivity();
-                    Intent mIntent = activity.getIntent();
-                    activity.finish();
-                    activity.startActivity(mIntent);
+                    if(activity != null) {
+                        Intent mIntent = activity.getIntent();
+                        activity.finish();
+                        activity.startActivity(mIntent);
+                    }
                 }
             });
         }
 
         SystemClock.sleep(4000);
         Applanga.captureScreenshot("Login", null);
-
-        // Context of the app under test.
-        final Context appContext = InstrumentationRegistry.getTargetContext();
 
         onView(withId(R.id.email_sign_in_button)).perform(click());
         Applanga.captureScreenshot("LoginWrongPassword", Arrays.asList("error_incorrect_password"));
