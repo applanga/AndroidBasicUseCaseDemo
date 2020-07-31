@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'applanga'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "android.applanga.com.basicusecasedemo"
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -22,12 +22,8 @@ android {
 
 
 repositories {
-    def releaseRepositoryPath = file('../../../sdk-android/maven/releases')
-
-    maven {
-        url 'https://raw.github.com/applanga/sdk-android/master/maven/releases/'
-        //url "file://${releaseRepositoryPath.absolutePath}"
-    }
+    maven { url 'https://maven.applanga.com/'}
+    maven { url 'https://jitpack.io' }
 }
 
 
@@ -36,29 +32,22 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'com.google.android.material:material:1.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:rules:1.1.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.0.0'
-    androidTestImplementation 'androidx.test:core:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test:core:1.2.0'
 
-    implementation 'com.applanga.android:Applanga:3.0.123'
+    implementation 'com.applanga.android:Applanga:3.0.134'
 }
 
 buildscript {
     repositories {
-
         jcenter()
-
-        def releaseRepositoryPath = file('../../../sdk-android/maven/releases')
-
-        maven {
-            url 'https://raw.github.com/applanga/sdk-android/master/maven/releases/'
-            //url "file://${releaseRepositoryPath.absolutePath}"
-        }
+        maven { url 'https://maven.applanga.com/' }
     }
     dependencies {
-        classpath  'com.applanga.android:plugin:3.0.123'
+        classpath  'com.applanga.android:plugin:3.0.134'
     }
 }
