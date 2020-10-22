@@ -29,18 +29,18 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'com.google.android.material:material:1.1.0'
-    testImplementation 'junit:junit:4.13'
-    androidTestImplementation 'androidx.test:rules:1.2.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test:core:1.2.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test:rules:1.3.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test:core:1.3.0'
 
-    implementation 'com.applanga.android:Applanga:3.0.134'
+    implementation 'com.applanga.android:Applanga:3.0.139'
 }
 
 buildscript {
@@ -49,6 +49,6 @@ buildscript {
         maven { url 'https://maven.applanga.com/' }
     }
     dependencies {
-        classpath  'com.applanga.android:plugin:3.0.134'
+        classpath  'com.applanga.android:plugin:3.0.139'
     }
 }
