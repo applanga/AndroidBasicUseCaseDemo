@@ -39,10 +39,11 @@ import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentat
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Rule
-    public ActivityTestRule<LoginActivity> mActivityRule = new ActivityTestRule<>(
-            LoginActivity.class);
+    public ActivityTestRule<LoadingScreen> mActivityRule = new ActivityTestRule<>(
+            LoadingScreen.class);
     @Test
     public void englishTest() throws Exception {
+
         runScreenshotAutomation("en");
     }
 
@@ -70,6 +71,11 @@ public class ExampleInstrumentedTest {
     }
 
     void runScreenshotAutomation(final String language) throws Exception {
+
+
+        SystemClock.sleep(4000);
+
+
         if(Locale.getDefault().getDisplayLanguage() != language) {
             List<String> groups = new ArrayList<>();
             groups.add("main");
